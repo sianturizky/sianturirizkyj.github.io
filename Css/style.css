@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    --main-color: #111111;
+    --second-color: #141414;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+p{
+    font-size: 15px !important;
+    margin-bottom: 0;
+}
+
+a{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    text-decoration: none;
+}
+
+.navbar{
+    background: transparent;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#home{
+    background: url(../asset/45.jpeg);
+    background-position: 0 -250px;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    z-index: -1;
+}
+
+#home .row{
+    vertical-align: middle;
+    height: inherit;
+}
+
+.img-about{
+    width: 100%;
+    height: 100%;
+}
+
+#education{
+    background-color: var(--main-color);
+    color: black
+}
+
+.card{
+    border-radius: 0px;
+}
+
+.number{
+    background-color: var(--main-color);
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+}
+
+#organization{
+    background: url(../asset/ttt.jpg);
+    height: 610px;
+    background-size: cover;
+}
+
+.img-organization{
+    max-width: 400px;
+}
+
+.img-certification{
+    width: 100%;
+    background-size: cover;
+}
+
+.btn-primary{
+    color: white !important;
+    margin-top: 30px;
+    border-radius: 0px !important;
+    width: 130px;
+    font-size: 13px;
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:hover{
+    background-color: white !important;
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+#Contact Me{
+    background-color: var(--main-color);
+}
+
+#contact a{
+    color: white !important;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#footer .copyrights{
+    margin-top: 20px;
+    color: white;
+    background-color: var(--second-color);
+    text-align: center;
+}
+
+#footer .copyrights p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style untuk inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style untuk bagian container/contact  */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Buat dua kolom yang berfloat di samping satu sama lain */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Hapus floats setelah columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout -ketika layar kurang dari 600px lebarnya, buat dua kolom bertumpuk satu sama lain, bukan di samping satu sama lain */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
